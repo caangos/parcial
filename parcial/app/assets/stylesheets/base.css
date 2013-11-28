@@ -1,0 +1,280 @@
+
+/******************************************************************************/
+/*  General																	  */
+/******************************************************************************/
+body{
+font-family:times new roman;
+margin-top:-5px;
+
+}
+h2{
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    color:#666360;
+    font-weight: normal;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+
+/******************************************************************************/
+/*  Cabecera																  */
+/******************************************************************************/
+#cabecera{   
+   background: none repeat scroll 0 0 #668284;
+    height: 57px;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+#titulocabecera{
+    float: right;
+    margin: 0px 25px 0px 0px;
+
+}
+
+h1{
+  	color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/******************************************************************************/
+/*  footer   																  */
+/******************************************************************************/
+
+#footer{ 
+   background: none repeat scroll 0 0 #668284;
+    bottom: 0;
+    margin: auto;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#footer .texto {
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0 auto 10px;
+    padding: 13px;
+    text-align: center;
+}
+
+#footer a {
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footer a:hover {
+    color: #800080;
+	text-decoration: underline;
+}
+
+
+/******************************************************************************/
+/*  Centro    																  */
+/******************************************************************************/
+
+
+#contenedor{
+    min-height: auto;
+    overflow: hidden;
+    padding: 0;
+    clear: both;
+    margin: 2px 0 10px;
+    width: 100%;
+}    
+/******************************************************************************/
+/*  Centro   Izquierda  																  */
+/******************************************************************************/
+
+
+
+#boxizquierda {
+    background: none repeat scroll 0 0 #b9d7d9;
+	border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-right: 10px;
+    width: 160px;
+    height: 370px;
+
+}
+
+#boxmenu {
+    background: none repeat scroll 0 0 #b9d7d9;
+    border: 1px solid #668284;
+    border-radius: 5px 5px 5px 5px;
+ 	margin: 60px 0 0 22px;    
+ 	width: 135px;
+    height: 220px;
+    box-shadow: 4px 4px 1px 0 #aaaaaa;
+
+}
+
+.menu{
+    margin-bottom: 10px;
+
+}
+
+.menu li{
+
+	background: none repeat scroll 0 0 #668284;
+	list-style: none outside none;
+	border: 1px solid #000000;
+	border-radius: 0 10px 0 10px;
+	margin-bottom: 12px;
+	text-align: center;
+	box-shadow: 3px 3px 0 0 #888888;
+
+
+}
+.menu a{
+
+	color:#800080;
+	text-decoration: none;
+
+}
+.menu a:hover{
+
+	color:#ffffff;
+
+}
+/******************************************************************************/
+/*  Centro Centro																  */
+/******************************************************************************/
+
+
+#boxcentro {
+    background: none repeat scroll 0 0 #f4ccc3;
+    border: 1px solid #668284;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+	margin-right: 10px;
+ 	width: 360px;
+    height: 370px;
+    
+}
+#boxmedicos {
+    background: none repeat scroll 0 0 #F4EBC3;
+    border: 1px solid #000000;
+    border-radius: 0 0 20px 20px;
+    height: 320px;
+	margin: 30px 55px;
+    width: 250px;
+    text-align:center;
+
+}
+
+.menumedicos{
+    margin-bottom: 10px;
+
+}
+
+.menumedicos td{
+
+	background: none repeat scroll 0 0 #668284;
+	display: inline-block;
+    list-style: none outside none;
+	border: 1px solid #000000;
+	border-radius: 0 10px 0 10px;
+	margin-bottom: 12px;
+	text-align: center;
+	box-shadow: 4px 4px 3px 0 #999999;
+
+
+}
+img{
+	border: 1px solid #000000;
+
+}
+
+img:hover{
+	border: 1px solid #df0101;
+
+}
+
+
+
+/******************************************************************************/
+/*  Centro  Derecha														  */
+/******************************************************************************/
+
+
+
+#boxderecha {
+    background: none repeat scroll 0 0 #f4ebc3;
+    border: 1px solid #668284;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+ 	width: 715px;
+    height: 370px;   
+}
+
+
+/******************************************************************************/
+/*  Centro  Derecha	Arriba													  */
+/******************************************************************************/
+
+
+
+#boxderechaarriba {
+    background: none repeat scroll 0 0 #b9d7d9;
+    border: 1px solid #668284;
+    border-radius: 5px 5px 5px 5px;
+    height: 150px;
+    margin: 10px;
+    width: auto;  
+}
+
+
+.elmedico{
+	margin: 23px 0 0 290px;
+	padding: 0;
+}
+
+.elmedico img{
+	border: 1px solid #df0101;
+	box-shadow: 4px 4px 0px 0 #999999;
+
+}
+
+
+
+/******************************************************************************/
+/*  Centro  Derecha	Abajo													  */
+/******************************************************************************/
+
+
+
+#boxderechaabajo {
+    background: none repeat scroll 0 0 #b9d7d9;
+    border: 1px solid #668284;
+    border-radius: 5px 5px 5px 5px;
+    height: 185px;
+    margin: 10px;
+    width: auto;   
+}
+table{
+	border:1px solid black;
+	text-align: center;
+	margin:5px 10px 0 5px;
+	background-color:#f4ccc3;
+	border-radius: 0 0 15px 15px;
+}
+tr{
+	border:1px solid black;
+
+}
+td{
+	border:1px solid black;
+
+}
+
+.espaciostabla cursive{
+font-family:Vivaldi,cursive; 
+color: blue;
+}

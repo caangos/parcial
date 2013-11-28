@@ -1,0 +1,22 @@
+<head>
+<title>Medicos</title>
+</head>
+<body>
+
+<h1>Medicos</h1>
+<table border="1">
+ <tr>
+  <td width="80%"><p align="center"><i><b>nombre</b></i></td>
+  <td width="20%"><p align="center"><i><b>apellido</b></i></td>
+ </tr>
+
+ <% @medicos.each do |medico| %>
+  <tr>
+   <td><%= link_to medico.edit, :action => "show", :id => medico.id %></td>
+   <td><%= medico.nombres %></td>
+  </tr>
+ <% end %>
+</table>
+<p><%= link_to "Craer un nuevo medico", :action => "new" %></p>
+
+</body>

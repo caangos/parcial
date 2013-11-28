@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parcial</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<table border="1">
+ <tr>
+  <td width="80%"><p align="center"><i><b>nombre</b></i></td>
+  <td width="20%"><p align="center"><i><b>apellido</b></i></td>
+ </tr>
+
+
+<%= yield %>
+
+</body>
+</html>

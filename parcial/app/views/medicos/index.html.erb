@@ -1,0 +1,67 @@
+
+	<div id="cabecera">
+		<div id="titulocabecera">
+			<h1>Gestión Doctores</h1>
+		</div>
+	</div>
+	
+	<div id="contenedor">
+
+		<div id="boxizquierda">
+			<div id="boxmenu">
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><%= link_to 'Nuevo Medico', new_medico_path %></li>
+			
+				</ul>
+			</div>	
+		</div>	
+			<table border="1">
+  <thead>
+    <tr>
+      <th>Nombres</th>
+      <th>Apellidos</th>
+      <th>Celular</th>
+      <th>Email</th>
+      <th>Curriculum</th>
+      <th>Reconocimientos</th>
+      <th>Especialidad</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @medicos.each do |medico| %>
+      <tr>
+        <td><%= link_to medico.nombres, :action => "show", :id =>  medico.id %></td>
+        <td><%= medico.apellidos %></td>
+        <td><%= medico.celular %></td>
+        <td><%= medico.email %></td>
+        <td><%= medico.curriculum %></td>
+        <td><%= medico.reconocimientos %></td>
+        <td><%= medico.especialidad.nombre %></td>
+        <td><%= link_to 'Edit', edit_medico_path(medico) %></td>
+        <td><%= link_to 'Destroy', medico, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+		
+
+	<div id="footer">
+		<div class="texto">
+			Clínica Sabanera. Autopista Norte Km 6 | Tel: (571) 8614545
+			</br>
+			</br>
+			<a href="mailto:clisaba@unisabana.co">contacto: clisaba@unisabana.co</a>
+		</div>	
+	</div>
+	
+	
+
+
+<br>
+
+
